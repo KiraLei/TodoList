@@ -50,8 +50,7 @@ justify-content: center;
 }
 
 .container{
-    max-width: 500px;
-    margin: auto;
+    margin: auto 10rem auto 7rem;
     
 }
 .label{
@@ -105,6 +104,31 @@ input[type="checkbox"]:checked + label{
     text-decoration: line-through;
     
 }
+
+@media only screen and (max-width: 1063px) {
+    body {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .container{
+        margin-left: 6rem;
+        margin-right: 9rem;
+    }
+   
+  }
+
+  
+@media only screen and (max-width: 960px) {
+    .removeList{
+        padding-right: 1rem;
+        padding-left: 1rem;
+     
+    }
+
+  }
+
+
+
 
 
 
