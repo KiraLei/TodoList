@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.addActivity{
+    max-width: 800px;
+    min-height: 300px;
+    
+    margin: auto;
+    background-color: rgba(233, 169, 193, 0.6);
+    border-radius: 2rem;
+    box-shadow: -6px 6px 15px 4px #b19e9e;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 800px;
+    margin:  2rem auto ;
+    border: 3px solid rgb(243, 234, 234);
+    text-align: center;
+    box-shadow: -6px 6px 15px 4px #d3d3d3;
+    border-radius: 2rem;
+    
+}
+.tolist{
+    padding-left: 2rem;
+}
+
+h1{
+    margin: 1rem 0 1rem;
+    color: deepskyblue;
+}
+.addForm{
+    padding-top: 3rem;
+    margin: 2rem;
+display: flex;
+justify-content: center;
+
+}
+
+
+.card{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card:last-child{
+    padding-bottom: 4rem;
+}
+
+.container{
+    max-width: 500px;
+    margin: auto;
+    
+}
+.label{
+    font-family: 'Lemonada', cursive;
+    color: rgb(37, 116, 143);
+}
+
+
+
+.list{
+    width: 100%;
+    max-width: 500px;
+    font-family: 'Lemonada', cursive;
+    height: 3rem;
+    background-color: rgb(236, 235, 229);
+    border: none;
+    border-radius: 2rem ;
+    padding: 0 1rem;
+    margin-right: 1rem;
+    
+}
+
+.plus{
+    background-color: rgb(218, 210, 212);
+    border-radius: 5rem;
+    padding: 0rem 0.5rem;
+
+}
+.list, .plus, .removeList:focus{
+    outline: none;
+}
+.imgDelete{
+    background-color: crimson;
+    border: none;
+}
+.removeList{
+    background-image: url('../images/delete.png');
+    width: 5%;
+    height: 50px;
+    border: none;
+    background-color: rgba(233, 169, 193, 0);
+    background-repeat: no-repeat;
+}
+.removeList:hover{
+    background-image: url('../images/delete1.png');
+}
+
+
+
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    
+}
+
+
+
+
