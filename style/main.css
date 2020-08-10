@@ -127,6 +127,14 @@ input[type="checkbox"]:checked + label{
 
   }
 
+  @media only screen and (max-width: 960px) {
+    .container{
+        margin-left: 3rem;
+        margin-right: 6rem;
+    }
+
+  }
+
 
 
 
